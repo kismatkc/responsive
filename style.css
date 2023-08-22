@@ -1,0 +1,52 @@
+/*
+Error: Invalid CSS after "100%": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of ./style.css
+
+1: html {
+2:   height: 100%;
+3:   width: 100%;
+4: }
+
+Backtrace:
+./style.css:2
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in `assert_done'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in `parse'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in `parse'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script.rb:27:in `parse'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:1169:in `parse_script'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:745:in `parse_property'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:707:in `parse_property_or_rule'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:666:in `parse_line'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:548:in `block in build_tree'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `each'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `build_tree'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/nix/store/lmccxa4zay85xdrgm53f9d8ah8p0drgm-ruby2.7.6-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/nix/store/ym6mkbkarxkb25lf41cbhj9y4aiwia2k-sass-3.7.4/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/nix/store/q5hci69q1afdh2ajck4jhhy73hzhi710-sass-3.7.4/bin/sass:35:in `load'
+/nix/store/q5hci69q1afdh2ajck4jhhy73hzhi710-sass-3.7.4/bin/sass:35:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"100%\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of ./style.css\A \A 1: html {\A 2:   height: 100%;\A 3:   width: 100%;\A 4: }"; }
