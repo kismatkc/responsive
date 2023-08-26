@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
